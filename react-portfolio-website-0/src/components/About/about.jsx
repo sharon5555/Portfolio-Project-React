@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import Love from '../../assets/love.png'
+import Put from '../../assets/put.png'
 import { FiAward } from "react-icons/fi";
 import { FaUsers } from "react-icons/fa";
 import { FaFolder } from "react-icons/fa";
@@ -14,7 +14,7 @@ return (
         <div className="container about_container">
             <div className="about_me">
                 <div className="about_me-image">
-                    <img src={Love} alt="About Image" />
+                    <img src={Put} alt="About Me" />
                 </div>
             </div>
 
