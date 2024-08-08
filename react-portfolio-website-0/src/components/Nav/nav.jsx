@@ -9,7 +9,7 @@ import { MdOutlineContacts } from "react-icons/md";
 const nav = () => {
 return (
     <nav>
-        <a href="#"><FaHome /></a>
+        <a href="#" className='active'><FaHome /></a>
         <a href="#about"><FaRegUser /></a>
         <a href="#experience"><FaBook /></a>
         <a href="#services"><RiServiceLine /></a>
