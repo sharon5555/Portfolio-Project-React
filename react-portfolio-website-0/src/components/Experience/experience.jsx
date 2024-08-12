@@ -13,39 +13,51 @@ return (
                 <h3>Frontend Development</h3>
                 <div className="experience_content">
                     <article className="experience_details">
-                    <BsPatchCheckFill />
-                    <h4>HTML</h4>
-                    <small className="text-light">Experienced</small>
+                    <BsPatchCheckFill className="experience_details-icon"/>
+                    <div>
+                        <h4>HTML</h4>
+                            <small className="text-light">Experienced</small>
+                    </div>
                     </article>
 
                     <article className="experience_details">
-                    <BsPatchCheckFill />
-                    <h4>CSS</h4>
-                    <small className="text-light">Experienced</small>
+                    <BsPatchCheckFill className="experience_details-icon" />
+                    <div>
+                        <h4>CSS</h4>
+                            <small className="text-light">Experienced</small>
+                    </div>
                     </article>
 
                     <article className="experience_details">
-                    <BsPatchCheckFill />
-                    <h4>JavaScript</h4>
-                    <small className="text-light">Experienced</small>
+                    <BsPatchCheckFill className="experience_details-icon" />
+                    <div>
+                        <h4>JavaScript</h4>
+                            <small className="text-light">Experienced</small>
+                    </div>
                     </article>
 
                     <article className="experience_details">
-                    <BsPatchCheckFill />
-                    <h4>Bootstrap</h4>
-                    <small className="text-light">Experienced</small>
+                    <BsPatchCheckFill  className="experience_details-icon"/>
+                    <div>
+                        <h4>Bootstrap</h4>
+                            <small className="text-light">Experienced</small>
+                    </div>
                     </article>
 
                     <article className="experience_details">
-                    <BsPatchCheckFill />
-                    <h4>Tailwind</h4>
-                    <small className="text-light">Experienced</small>
+                    <BsPatchCheckFill  className="experience_details-icon"/>
+                    <div>
+                        <h4>Tailwind</h4>
+                            <small className="text-light">Experienced</small>
+                    </div>
                     </article>
 
                     <article className="experience_details">
-                    <BsPatchCheckFill />
-                    <h4>React</h4>
-                    <small className="text-light">Experienced</small>
+                    <BsPatchCheckFill  className="experience_details-icon"/>
+                    <div>
+                        <h4>React</h4>
+                            <small className="text-light">Experienced</small>
+                    </div>
                     </article>
                 </div>
             </div>
@@ -53,33 +65,43 @@ return (
             <h3>Frontend Development</h3>
                 <div className="experience_content">
                     <article className="experience_details">
-                    <BsPatchCheckFill />
-                    <h4>Figma</h4>
-                    <small className="text-light">Experienced</small>
+                    <BsPatchCheckFill className="experience_details-icon" />
+                    <div>
+                        <h4>Figma</h4>
+                            <small className="text-light">Experienced</small>
+                    </div>
                     </article>
 
                     <article className="experience_details">
-                    <BsPatchCheckFill />
-                    <h4>Flutter</h4>
-                    <small className="text-light">Experienced</small>
+                    <BsPatchCheckFill className="experience_details-icon" />
+                    <div>
+                        <h4>Flutter</h4>
+                            <small className="text-light">Experienced</small>
+                    </div>
                     </article>
 
                     <article className="experience_details">
-                    <BsPatchCheckFill />
-                    <h4>JavaScript</h4>
-                    <small className="text-light">Experienced</small>
+                    <BsPatchCheckFill  className="experience_details-icon"/>
+                    <div>
+                        <h4> JavaScript</h4>
+                            <small className="text-light">Experienced</small>
+                    </div>
                     </article>
 
                     <article className="experience_details">
-                    <BsPatchCheckFill />
-                    <h4>Bootstrap</h4>
-                    <small className="text-light">Experienced</small>
+                    <BsPatchCheckFill className="experience_details-icon" />
+                    <div>
+                        <h4>Bootstrap</h4>
+                            <small className="text-light">Experienced</small>
+                    </div>
                     </article>
 
                     <article className="experience_details">
-                    <BsPatchCheckFill />
-                    <h4>Tailwind</h4>
-                    <small className="text-light">Experienced</small>
+                    <BsPatchCheckFill className="experience_details-icon"/>
+                    <div>
+                        <h4>Tailwind</h4>
+                            <small className="text-light">Experienced</small>
+                    </div>
                     </article>
                 </div>
             </div>
