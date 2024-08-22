@@ -12,7 +12,7 @@ const data = [
     {
         id: 1,
         image: IMG1,
-        title:'clock',
+        title:'clock & Login',
         github:'https://github.com',
         demo:'#',
     },
@@ -52,7 +52,7 @@ const data = [
     {
         id: 6,
         image: IMG1,
-        title:'clock',
+        title:'clock & Login',
         github:'https://github.com',
         demo:'#',
     }
