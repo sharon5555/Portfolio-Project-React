@@ -3,11 +3,11 @@ import './contact.css'
 import { TfiEmail } from "react-icons/tfi";
 import { RiMessengerLine } from "react-icons/ri";
 import { FaWhatsapp } from "react-icons/fa";
-import { UseRef } from 'react';
+import { useRef } from 'react';
 import emailjs from '@emailjs/browser'
 
 const contact = () => {
-    const form = UseRef();
+    const form = useRef();
 
     const sendEmail = (e) => {
         e.preventDefault();
