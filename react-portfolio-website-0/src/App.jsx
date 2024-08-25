@@ -9,7 +9,7 @@ import Testimonials from './components/Testimonials/testimonials'
 import Contact from './components/Contact/contact'
 import Footer from './components/Footer/footer'
 
-const App = () => {
+export default function App() {
 return (
     <>
         <Header />
@@ -23,6 +23,5 @@ return (
         <Footer />
     </>
 );
-}
 
-export default App;
+}

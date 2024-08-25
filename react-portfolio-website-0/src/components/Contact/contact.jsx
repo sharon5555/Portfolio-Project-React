@@ -6,7 +6,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser'
 
-const contact = () => {
+const Contact = () => {
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -15,6 +15,11 @@ const contact = () => {
         emailjs
         .sendForm('service_bkl7s1w', 'template_me90i1z', {form:form.current},{
             publicKey: 'y0Y_NHbDtEMFQPIMW'},)
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
 
             e.target.reset()
     };
@@ -60,4 +65,4 @@ return (
 )
 }
 
-export default contact
+export default Contact
