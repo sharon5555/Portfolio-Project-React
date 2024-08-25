@@ -15,7 +15,7 @@
 .about_me-image {
     border-radius: 2rem;
     Overflow: hidden;
-    background: linear-gradient(45%, transparent, Var(--color-primary), transparent);
+    background: var(--color-primary);
     transform: rotate(10deg);
     transition: var(--transition);
 }

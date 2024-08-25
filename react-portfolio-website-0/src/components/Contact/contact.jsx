@@ -12,14 +12,9 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs
-        .sendForm('service_bkl7s1w', 'template_me90i1z', {form:form.current},{
+        emailjs.sendForm('service_bkl7s1w', 'template_me90i1z', form.current, {
             publicKey: 'y0Y_NHbDtEMFQPIMW'},)
-            .then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
-            });
+    
 
             e.target.reset()
     };
